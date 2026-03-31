@@ -39,9 +39,32 @@ main {
 h1 {
   font-family: "Comic Sans MS", Georgia, serif;
   color: #45699a; 
+  font-size: 24px;
 }
 
 a {
   color: rgb(125, 183, 133);
   text-decoration: none;
+}
+
+@media screen and (min-width: 576px) {
+  body {
+    width: 556px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 748px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    width: 972px;
+  }
 }
