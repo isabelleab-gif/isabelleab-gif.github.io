@@ -2,18 +2,6 @@
 <?xml-stylesheet type="text/xsl" href="playlist.xsl"?>
 <playlist>
   <track>
-    <title>Untitled (How does it feel?)</title>
-    <artist>D'Angelo</artist>
-    <album>Voodoo</album>
-    <link>https://www.youtube.com/watch?v=6QPQtguRdDs</link>
-  </track>
-  <track>
-    <title>Hyperballad</title>
-    <artist>Bjork</artist>
-    <album>Post</album>
-    <link>https://www.youtube.com/watch?v=kye1TOlAWWw</link>
-  </track>
-  <track>
     <title>Cry Baby</title>
     <artist>The Neighbourhood</artist>
     <album>Wiped Out!</album>
