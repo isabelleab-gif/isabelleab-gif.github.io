@@ -1,19 +1,19 @@
 <!doctype html>
 <html lang="en" class="h-100 w-100"> 
 <head>
-  <link rel="stylesheet" href="style.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Isabelle's Portfolio Site</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">  
 </head> 
 <body class="h-100 w-100 d-flex flex-column">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="navbar">
-    <div class="container"> <a class="navbar-brand" href="home.html">Isabelle's Portfolio</a><button class="navbar-toggler" type="button"
+    <div class="container"> <a class="navbar-brand" href="home.html">Isabelle's Portfolio</a><btn class="navbar-toggler" type="button"
         data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar"
-        aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </btn>
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item"> <a class="nav-link active" aria-current="page" href="home.html">Home</a> </li>
@@ -26,42 +26,42 @@
     </div>
   </nav>
   <!--TITLE-->
-<section class="container py-5 text-center">
-  <h1 class="display-3">Welcome to my portfolio.</h1>
-  <p class="lead margin-top-3">
-    I'm Isabelle, and you...must be interested.
-  </p>
+<section class="hero-section text-center d-flex align-items-center">
+  <div class="container position-relative py-5">
+    <div class="hero-card mx-auto p-5 shadow-sm rounded-4 bg-white">
+      <h1 class="display-3 fw-semibold">
+        Welcome to my portfolio
+      </h1>
+      <p class="lead text-muted mt-3">
+        I'm Isabelle...and you must be interested.
+      </p>
+    </div>
+  </div>
 </section>
 
 <!--SHOWCASE-->
-<section class="container py-5">
 
-  <div class="row g-4">
-
-   
     <div class="col-md-4">
       <div class="card bg-light text-dark border-secondary project-card">
-        <img src="https://ucc.vt.edu/content/ucc_vt_edu/en/what_we_do/outreach/_jcr_content/article-image.transform/m-medium/image.jpg" class="card-img-top" alt="PALs Outreach">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPWwGgJbqe8I2GwImiy8yDizDSFir2RwuZnA&s" class="card-img-top" alt="Words and Pictures classmates at design presentation">
         <div class="card-body">
           <h5>Outreach Designs</h5>
           <p>A compilation of design projects I've completed as Digital Task Force Coordinator for <a href="https://ucc.vt.edu/">VT's Cook Counseling Center</a> outreach program.</p>
-          <a href="pals.html" class="button button-outline-dark button-small">View</a>
+          <a href="pals.html" class="btn btn-outline-dark btn-small">View</a>
         </div>
       </div>
     </div>
-
 
     <div class="col-md-4">
       <div class="card bg-light text-dark border-secondary project-card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPWwGgJbqe8I2GwImiy8yDizDSFir2RwuZnA&s" class="card-img-top" alt="Project image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPWwGgJbqe8I2GwImiy8yDizDSFir2RwuZnA&s" class="card-img-top" alt="Words and Pictures classmates at design presentation">
         <div class="card-body">
           <h5>Multimedia Projects</h5>
           <p>A compilation of multimedia projects I've completed as part of my PTW major field study course known as "Words and Pictures."</p>
-          <a href="multimedia.html" class="button button-outline-dark button-small">View</a>
+          <a href="multimedia.html" class="btn btn-outline-dark btn-small">View</a>
         </div>
       </div>
     </div>
-
 
     <div class="col-md-4">
       <div class="card bg-light text-dark border-secondary project-card">
@@ -69,7 +69,7 @@
         <div class="card-body">
           <h5>About Me</h5>
           <p>Learn a bit about who I am.</p>
-          <a href="about.html" class="button button-outline-dark button-small">View</a>
+          <a href="about.html" class="btn btn-outline-dark btn-small">View</a>
         </div>
       </div>
     </div>
@@ -77,19 +77,21 @@
   </div>
 </section>
 
-
-    <!--FOOTER-->
- <footer class="mt-auto border-top">
-    <div class="container d-flex flex-wrap justify-content-between align-items-center py-3">
-      <div class="col-md-4 d-flex align-items-center"><span class="mb-3 mb-md-0 ps-1 text-body-secondary">© 2026 Isabelle's Portfolio</span></div>
-        <a href="home.html" class="text-dark small me-3">Home</a>
-        <a href="pals.html" class="text-dark small me-3">Outreach Designs</a>
-        <a href="multimedia.html" class="text-dark small me-3">Multimedia Projects</a>
-        <a href="about.html" class="text-dark small me-3">About Me</a>
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/isabelle_annb/" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/isabelle-boyd-16b543290" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></li>
-      </ul>
+     <!--FOOTER-->
+ <footer class="mt-auto text-light border-top">
+  <div class="container py-3 d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+    <span class="small text-secondary">© 2026 Isabelle's Portfolio</span>
+    <ul class="nav flex-column flex-md-row gap-2 gap-md-3 text-center">
+      <li class="nav-item"><a class="nav-link text-light" href="home.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link text-light" href="pals.html">Outreach</a></li>
+      <li class="nav-item"><a class="nav-link text-light" href="multimedia.html">Multimedia</a></li>
+      <li class="nav-item"><a class="nav-link text-light" href="about.html">About</a></li>
+    </ul>
+    <div class="d-flex gap-3">
+      <a href="https://www.instagram.com/isabelle_annb/" aria-label="Instagram"
+         class="text-light"><i class="bi bi-instagram fs-5"></i></a>
+      <a href="https://www.linkedin.com/in/isabelle-boyd-16b543290" aria-label="LinkedIn"
+         class="text-light"><i class="bi bi-linkedin fs-5"></i></a>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
