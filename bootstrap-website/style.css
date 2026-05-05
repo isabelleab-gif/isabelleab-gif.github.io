@@ -55,3 +55,10 @@ h1.display-3 {
   color: white;
 }
 
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #800000; /* maroon */
+  font-weight: 400;
+}
