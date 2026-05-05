@@ -1,14 +1,14 @@
-/* ===== GLOBAL STYLES ===== */
+
 body {
   background-color: #f8f9fa; /* light neutral background */
 }
 
-/* ===== NAVBAR ===== */
+
 .navbar {
   background-color: #861F41 !important; 
 }
 
-/* ===== FOOTER ===== */
+
 footer {
   background-color: #861F41 !important;
 }
@@ -17,13 +17,13 @@ footer .text-secondary {
   color: #e0e0e0 !important;
 }
 
-/* ===== MAIN HEADER ===== */
+
 h1.display-3 {
   color: #861F41;
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 700;
 }
-/* HERO BACKGROUND */
+
 .hero-section {
   position: relative;
   min-height: 60vh;
@@ -36,14 +36,12 @@ h1.display-3 {
 }
 
 
-/* ===== CARD HEADERS ===== */
 .card h5 {
   color: #861F41;
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 700;
 }
 
-/* ===== CARD BUTTONS ===== */
 .card .btn {
   background-color: #861F41;
   color: white;
