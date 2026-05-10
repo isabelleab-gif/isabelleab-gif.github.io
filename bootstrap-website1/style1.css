@@ -1,3 +1,4 @@
+
 body {
   background-color: #f8f9fa;
 }
@@ -19,16 +20,16 @@ footer .text-secondary {
 
 h1.display-3 {
   color: #861F41;
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-weight: 700;
 }
 
-.hero-main {
+.hero-section {
   position: relative;
   min-height: 60vh;
   background: #f8f9fa;
+  overflow: hidden;
 }
-
 .hero-card {
   max-width: 800px;
   backdrop-filter: blur(8px);
@@ -37,7 +38,7 @@ h1.display-3 {
 
 .card h5 {
   color: #861F41;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-weight: 700;
 }
 
@@ -53,8 +54,9 @@ h1.display-3 {
 }
 
 
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  color: #800000;
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #800000; /* maroon */
   font-weight: 400;
 }
